@@ -19,12 +19,12 @@ public class TempleRun {
         // Welcome Message
         System.out.println("			*** Welcome to Temple Run *** \n");
         // Options
-        System.out.println("1.Add Competitor Details");
-        System.out.println("2.View all Competitors Details");
-        System.out.println("3.View Selected competitor's Details");
-        System.out.println("4.View Details of Winners'");
-        System.out.println("5.View Selected Winner's Details");
-        System.out.println("6.Exit");
+        System.out.println("1-Add Competitor Details");
+        System.out.println("2-View all Competitors Details");
+        System.out.println("3-View Selected competitor's Details");
+        System.out.println("4-View Details of Winners'");
+        System.out.println("5-View Selected Winner's Details");
+        System.out.println("6-Exit");
         // selecting option
         System.out.println("Select Your Option:");
 
