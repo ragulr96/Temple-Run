@@ -1,6 +1,8 @@
 
 public class competitor {
 
+	//Competitor address
+	private String address;
 	//Competitor number
 	private int comp_num;
 	//Competitor Name
@@ -61,6 +63,25 @@ public class competitor {
 	public void setdistance(double distance){
 		this.distance = distance;
 	}
-	
-	
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
+	@java.lang.Override
+	public java.lang.String toString() {
+		return "competitor{" +
+				"address='" + address + '\'' +
+				", comp_num=" + comp_num +
+				", name='" + name + '\'' +
+				", age=" + age +
+				", tot_coins=" + tot_coins +
+				", score=" + score +
+				", distance=" + distance +
+				'}';
+	}
 }
